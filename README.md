@@ -49,3 +49,12 @@ A BibTeX entry for LaTeX users is
 
 See file `LICENSE` or navigate to https://www.gnu.org/licenses/gpl-3.0.html.
 
+## Interactive Web Visualization
+
+An interactive, project-level map for exploring the climate-driven impacts on green hydrogen costs is available online:
+
+👉 **[Open the interactive HTML map](https://onismyh.github.io/climate-impacts-hydrogen/Hydrogen_Projects_Climate_Impact.html)**
+
+If the link above does not open, try the GitHub Pages site root:
+
+🔗 https://onismyh.github.io/climate-impacts-hydrogen/
