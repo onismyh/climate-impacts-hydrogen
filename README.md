@@ -18,14 +18,58 @@ The analysis focuses on renewable-based electrolysis systems, explicitly capturi
 
 ---
 
+## System Requirements
+
+### Operating System
+- Windows
+
+### Python Version
+- Python ≥ 3.12 (tested with Python 3.12.3)
+
+### Python Dependencies
+The main Python packages used include:
+- `numpy`
+- `pandas`
+- `xarray`
+- `scipy`
+- `matplotlib`
+- `seaborn`
+- `geopandas`
+- `shapely`
+- `lightgbm`
+- `gurobipy`
+- `scikit-learn`
+
+Approximately 5–10 minutes on a standard desktop computer with a stable internet connection.
+
+### Tested Environments
+- Python 3.12.3 on Windows 10  
+
+### Hardware Requirements
+No non-standard hardware is required.  
+All scripts can be executed on a standard desktop or laptop computer.
 
 
+---
 
-## Dependency Management
+## Installation Guide
 
-Python dependencies are managed using standard scientific Python packages (e.g., `numpy`, `pandas`, `xarray`, `scipy`, `xgboost`, `lightgbm`, `dask`, `geopandas`).  
-It is recommended to run the code within a dedicated virtual environment (e.g., `conda` or `venv`) to ensure reproducibility.
+We recommend running the code in a dedicated virtual environment (e.g., `conda` or `venv`).
 
+```bash
+pip install -r requirements.txt
+```
+
+
+## Interactive Web Visualization
+
+An interactive, project-level map for exploring the climate-driven impacts on green hydrogen costs is available online:
+
+👉 **[Open the interactive HTML map](https://onismyh.github.io/climate-impacts-hydrogen)**
+
+If the link above does not open, try the GitHub Pages site root:
+
+🔗 https://onismyh.github.io/climate-impacts-hydrogen/
 ---
 
 ## Citation
@@ -48,13 +92,3 @@ A BibTeX entry for LaTeX users is
 ## License
 
 See file `LICENSE` or navigate to https://www.gnu.org/licenses/gpl-3.0.html.
-
-## Interactive Web Visualization
-
-An interactive, project-level map for exploring the climate-driven impacts on green hydrogen costs is available online:
-
-👉 **[Open the interactive HTML map](https://onismyh.github.io/climate-impacts-hydrogen)**
-
-If the link above does not open, try the GitHub Pages site root:
-
-🔗 https://onismyh.github.io/climate-impacts-hydrogen/
